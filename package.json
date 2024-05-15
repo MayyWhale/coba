@@ -1,0 +1,53 @@
+{
+  "name": "spk-ahp-pemilihan-jurusan",
+  "version": "1.0.0",
+  "description": "CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.\r More information can be found at the [official site](http://codeigniter.com).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start-dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/anggaegae/spk-ahp-pemilihan-jurusan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/anggaegae/spk-ahp-pemilihan-jurusan/issues"
+  },
+  "homepage": "https://gitlab.com/anggaegae/spk-ahp-pemilihan-jurusan#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "autoprefixer": "^10.4.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "imports-loader": "^4.0.1",
+    "node-sass": "^7.0.3",
+    "postcss-loader": "^7.0.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.1",
+    "hybrids": "^8.1.4",
+    "jquery": "^3.6.1",
+    "select2": "^4.1.0-rc.0"
+  }
+}
